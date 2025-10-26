@@ -6,7 +6,7 @@ passlib
 argon2-cffi
 python-jose[cryptography]
 python-multipart
-fastapi-mail
+fastapi-mail>=1.5.7
 python-dotenv
 google-auth
 google-auth-oauthlib
