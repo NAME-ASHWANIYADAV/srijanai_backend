@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+motor
+pydantic
+passlib
+argon2-cffi
+python-jose[cryptography]
+python-multipart
+fastapi-mail
+python-dotenv
+google-auth
+google-auth-oauthlib
