@@ -33,7 +33,7 @@ async def send_otp_email(email: str, otp: str):
     await fm.send_message(message)
 
 async def send_password_reset_email(email: str, token: str):
-    reset_link = f"https://www.srijanai.co.in/reset-password?token={token}"
+    reset_link = f"https://srijanai.vercel.app/reset-password?token={token}"
     html = f"""
     <p>Hi,</p>
     <p>You have requested to reset your password. Click the link below to reset your password:</p>
