@@ -1,13 +1,13 @@
 fastapi
 uvicorn[standard]
+pydantic[email]
+fastapi-mail[template]
+python-dotenv
 motor
-pydantic
 passlib
 argon2-cffi
 python-jose[cryptography]
 python-multipart
-fastapi-mail>=1.5.7
-python-dotenv
 google-auth
 google-auth-oauthlib
 gunicorn

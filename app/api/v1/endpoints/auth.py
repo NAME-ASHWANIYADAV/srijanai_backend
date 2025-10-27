@@ -93,7 +93,7 @@ async def google_callback(code: str, db: AsyncIOMotorClient = Depends(get_databa
     access_token = create_access_token(
         data={"sub": user.email}
     )
-    return RedirectResponse(f"https://srijanai.vercel.app/google/callback?token={access_token}")
+    return RedirectResponse(f"https://www.srijanai.co.in/google/callback?token={access_token}")
 
 @router.post("/login", response_model=Token)
 async def login(
