@@ -16,7 +16,7 @@ app = FastAPI(
 # Set all CORS enabled origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:8080", "https://srijanai-creative-suite.onrender.com", "https://srijanai.vercel.app"],
+    allow_origins=["http://localhost:3000", "http://localhost:8080", "https://srijanai-creative-suite.onrender.com", "https://srijanai.vercel.app", "https://www.srijanai.co.in"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
